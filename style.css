@@ -121,7 +121,7 @@ h2 {
   overflow: hidden;
 }
 
-.darker { background-color : rgb(15, 15, 15); }
+.darker { background-color : #141516; }
 .lighter { background-color : #fff; }
 
 #About { }
@@ -566,4 +566,36 @@ box-shadow: inset 8px 8px 14px #060606,
   }
 }
 
-/* hover effect */
+/* boxOverflow */
+.boxOverflow{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 250px;
+  right: 40px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  /* box-shadow: inset 5px 5px 10px #080809,
+              inset -5px -5px 10px #202223; */
+}
+.boxOverflow2{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 500px;
+  left: 40px;
+  overflow: hidden;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.fixedBack{
+  position: absolute;
+  width: 310px;
+  height: 310px;
+  background-attachment: fixed;
+  background-image: url(backfixed.png);
+}
+
