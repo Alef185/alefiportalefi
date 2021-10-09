@@ -509,6 +509,19 @@ footer a:hover{
   footer .content .middle{
     padding-left: 0;
   }
+  /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+  .boxOverflow{
+    opacity: 10%;
+  }
+  .boxOverflow2{
+    position: absolute;
+    max-width: 300px;
+    height: 100px;
+    padding-top: 200px;
+    padding-left: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
 }
 
 /* placa animada */
